@@ -34,8 +34,8 @@ textarea {
 
 button,
 input { /* 1 */
-  overflow: visible;
-}
+  overflow: auto;}
+  
 
 /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
@@ -88,9 +88,9 @@ button:-moz-focusring,
  */
 
 fieldset {
-  border: 1px solid #c0c0c0;
-  margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
+  border-style: dotted;
+  margin: 5px;
+  padding: 5px 10px;
 }
 
 /**
