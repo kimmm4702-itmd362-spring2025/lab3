@@ -210,10 +210,12 @@ html{
 h1{
   font-size: 3em; /* 48px / 16px */
   line-height:  1em; /* 48px /48px */
+  margin-bottom: .5em; /* 24px /48px */
 }
 p{
   font-size:  1em; /* 16px */
   line-height:  1.5em; /* 24px / 16px */
+  margin-bottom: 1.5em; /* 24px / 16px */
 }
 
 /* ===== STATE STYLES ======= */
