@@ -203,9 +203,12 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
+body{
+  background-color: lightgray;
+}
 form{
-  background: lightgray;
-  box-sizing: border-box;
+  border-style: dotted;
+  background-color: gray;
 
 }
 h1{
