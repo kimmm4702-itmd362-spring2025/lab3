@@ -209,6 +209,9 @@ body{
 form{
   border-style: dotted;
   background-color: gray;
+  box-sizing: border-box;
+  padding: 25px;
+  text-align: center;
 
 }
 h1{
