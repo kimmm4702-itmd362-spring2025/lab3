@@ -211,22 +211,29 @@ form{
   background-color: gray;
   box-sizing: border-box;
   padding: 25px;
-  text-align: center;
 
 }
 h1{
   font-size: 3em; /* 48px / 16px */
   line-height:  1em; /* 48px /48px */
   margin-bottom: .5em; /* 24px /48px */
+  text-align: center;
 }
 p{
   font-size:  1em; /* 16px */
   line-height:  1.5em; /* 24px / 16px */
   margin-bottom: 1.5em; /* 24px / 16px */
+  text-align: center;
+}
+input{
+
 }
 
 /* ===== STATE STYLES ======= */
 @media screen and (min-width: 480px){
+  h1{
+    font-size: 2em; /* 32px / 16px */
+  }
 
 }
 
