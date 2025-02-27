@@ -211,7 +211,7 @@ form{
   background-color: gray;
   border-radius: 20px;
   box-sizing: border-box;
-  padding: 25px;
+  padding: 2em;
   width: 100%;
 
 }
@@ -230,6 +230,10 @@ p{
 #input-submit :hover{
   background-color: lightgray;
 }
+#input-age-verification{
+  display: flex;
+
+}
 
 /* ===== STATE STYLES ======= */
 @media screen and (min-width: 480px){
@@ -244,5 +248,8 @@ p{
 }
 
 @media screen and (min-width: 720px){
+  form{
+    max-width: 450px;
+  }
 
 }
