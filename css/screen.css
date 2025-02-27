@@ -209,8 +209,10 @@ body{
 form{
   border-style: dotted;
   background-color: gray;
+  border-radius: 20px;
   box-sizing: border-box;
   padding: 25px;
+  width: 100%;
 
 }
 h1{
@@ -225,14 +227,18 @@ p{
   margin-bottom: 1.5em; /* 24px / 16px */
   text-align: center;
 }
-input{
-
+#input-submit :hover{
+  background-color: lightgray;
 }
 
 /* ===== STATE STYLES ======= */
 @media screen and (min-width: 480px){
   h1{
     font-size: 2em; /* 32px / 16px */
+
+  }
+  input{
+
   }
 
 }
