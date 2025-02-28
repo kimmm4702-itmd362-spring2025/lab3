@@ -259,7 +259,7 @@ input{
 
 
 /* ===== STATE STYLES ======= */
-@media screen and (max-width: 480px){
+@media screen and (max-width: 600px){
   form{
     width: 90%;
     display: block;
