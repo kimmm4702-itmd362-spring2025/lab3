@@ -238,10 +238,10 @@ li{
 input{
   font-size: 1em;
   margin-top: 1.5em;
-  padding: 1em;
+  padding: 0.5em;
   border-radius: 20px;
 }
-#input-submit{
+#submit{
   background-color: lightgreen;
   color: black;
   border-radius: 20px;
@@ -256,9 +256,10 @@ input{
 
 
 /* ===== STATE STYLES ======= */
-@media screen and (min-width: 480px){
+@media (min-width: 480px){
   form{
     padding: 1em;
+    border-radius: 100px;
   }
   h1{
     font-size: 1.5em; /* 24px / 16px */
