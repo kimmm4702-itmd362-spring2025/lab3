@@ -254,7 +254,6 @@ input{
 }
 #input-age-verification{
   font-size: 1em;
-  align-items: center;
 
 }
 
@@ -263,7 +262,8 @@ input{
 /* ===== STATE STYLES ======= */
 @media screen and (max-width: 600px){
   form{
-    width: 90%;
+    width: 80%;
+    max-width: 400px;
     display: block;
     margin: 0 auto;
   }
