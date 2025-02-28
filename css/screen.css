@@ -208,12 +208,14 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
 
 }
 form{
   background-color: gray;
   border-radius: 20px;
   padding: 2em;
+  width: 100%;
 
 }
 h1{
