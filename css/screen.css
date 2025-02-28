@@ -261,8 +261,20 @@ input{
 /* ===== STATE STYLES ======= */
 @media screen and (min-width: 480px){
   form{
-    width: 100%;
+    width: 90%;
     display: block;
+  }
+  h1{
+    font-size: 2em;
+  }
+  p{
+    font-size: 1.2em;
+  }
+  input{
+    padding: 0.4em;
+  }
+  #submit{
+    font-size: 1em;
   }
   
 }
