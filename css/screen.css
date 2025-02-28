@@ -205,18 +205,15 @@ label {
 /* ===== LAYOUT STYLES ====== */
 body{
   background-color: lightgray;
-  margin: 0;
   display: flex;
   justify-content: center;
-  
+  align-items: center;
+
 }
 form{
   background-color: gray;
   border-radius: 20px;
-  box-sizing: border-box;
   padding: 2em;
-  width: 100%;
-  max-width: 480px;
 
 }
 h1{
@@ -235,15 +232,20 @@ input{
   font-size: 1em;
   margin-top: 1.5em;
   padding: 1em;
+  width: 100%;
 
 }
 #input-submit :hover{
   background-color: lightgray;
 }
 #input-age-verification{
-  display: flex;
-  align-items: center;
+  font-size: 1em;
 
+}
+li{
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 1em;
 }
 
 /* ===== STATE STYLES ======= */
