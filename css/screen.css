@@ -205,6 +205,10 @@ label {
 /* ===== LAYOUT STYLES ====== */
 body{
   background-color: lightgray;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  
 }
 form{
   background-color: gray;
