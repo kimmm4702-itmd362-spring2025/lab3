@@ -230,12 +230,15 @@ p{
   margin-bottom: 1.5em; /* 24px / 16px */
   text-align: center;
 }
+li{
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 1em;
+}
 input{
   font-size: 1em;
   margin-top: 1.5em;
   padding: 1em;
-  width: 100%;
-
 }
 #input-submit :hover{
   background-color: lightgray;
@@ -244,11 +247,7 @@ input{
   font-size: 1em;
 
 }
-li{
-  font-size: 1.5em;
-  text-align: center;
-  margin-bottom: 1em;
-}
+
 
 /* ===== STATE STYLES ======= */
 @media screen and (min-width: 480px){
