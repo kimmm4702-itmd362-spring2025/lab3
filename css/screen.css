@@ -241,8 +241,6 @@ input{
   margin-top: 1.5em;
   padding: 0.5em;
   border-radius: 20px;
-  width: 100%;
-  box-sizing: border-box;
 }
 #submit{
   background-color: lightgreen;
@@ -259,7 +257,7 @@ input{
 
 
 /* ===== STATE STYLES ======= */
-@media screen and (min-width: 480px){
+@media screen and (max-width: 480px){
   form{
     width: 90%;
     display: block;
@@ -271,10 +269,11 @@ input{
     font-size: 1.2em;
   }
   input{
-    padding: 0.4em;
+    padding: 0.2em;
   }
   #submit{
     font-size: 1em;
+    padding: 1em;
   }
   
 }
