@@ -254,8 +254,10 @@ input{
 }
 #input-age-verification{
   font-size: 1em;
+  align-items: center;
 
 }
+
 
 
 /* ===== STATE STYLES ======= */
@@ -263,6 +265,7 @@ input{
   form{
     width: 90%;
     display: block;
+    margin: 0 auto;
   }
   h1{
     font-size: 2em;
