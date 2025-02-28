@@ -216,7 +216,7 @@ form{
   border-radius: 20px;
   padding: 2em;
   width: 100%;
-  max-width: 400px;
+  min-width: 400px;
 
 }
 h1{
@@ -237,17 +237,19 @@ li{
   margin-bottom: 1em;
 }
 input{
-  font-size: 1em;
+  font-size: 0.5em;
   margin-top: 1.5em;
   padding: 0.5em;
   border-radius: 20px;
+  width: 50%;
+  display: inline-block;
 }
 #submit{
   background-color: lightgreen;
   color: black;
   border-radius: 20px;
 }
-#submit :hover{
+#input-submit :hover{
   background-color: lightgray;
 }
 #input-age-verification{
