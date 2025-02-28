@@ -239,6 +239,12 @@ input{
   font-size: 1em;
   margin-top: 1.5em;
   padding: 1em;
+  border-radius: 20px;
+}
+#input-submit{
+  background-color: lightgreen;
+  color: black;
+  border-radius: 20px;
 }
 #input-submit :hover{
   background-color: lightgray;
@@ -251,25 +257,29 @@ input{
 
 /* ===== STATE STYLES ======= */
 @media screen and (min-width: 480px){
+  form{
+    padding: 1em;
+  }
   h1{
-    font-size: 2em; /* 32px / 16px */
+    font-size: 1.5em; /* 24px / 16px */
 
   }
-  p{
-    font-size: 1.5em; /* 24px/16px */
-  }
-  input{
-    font-size: 1em;
+ 
+  #input-submit{
+    padding: 0.5em;
   }
 
 }
 
 @media screen and (min-width: 720px){
   form{
-    max-width: 600px;
+    padding: 1.5em;
   }
-  input{
-    font-size: 1em;
+  h1{
+    font-size: 2em;
+  }
+   p{
+    font-size: 1em; /* 16px */
   }
 
 }
